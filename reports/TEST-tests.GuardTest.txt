@@ -1,0 +1,15 @@
+Testsuite: tests.GuardTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,141 sec
+
+Testcase: testClimbLeftPositif1 took 0,033 sec
+Testcase: testClimbLeftPositif2 took 0,009 sec
+Testcase: testClimbLeftNegatif took 0,007 sec
+Testcase: testClimbRightPositif1 took 0,004 sec
+Testcase: testClimbRightPositif2 took 0,006 sec
+Testcase: testClimbRightNegatif took 0,016 sec
+Testcase: TestStepPositif1 took 0,011 sec
+Testcase: TestStepPositif2 took 0,009 sec
+Testcase: TestStepPositif3 took 0,01 sec
+Testcase: TestStepPositif4 took 0,006 sec
+Testcase: TestStepPositif5 took 0,004 sec
+Testcase: testInitPositif took 0,004 sec

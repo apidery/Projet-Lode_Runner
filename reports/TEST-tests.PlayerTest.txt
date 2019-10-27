@@ -1,0 +1,26 @@
+Testsuite: tests.PlayerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9,846 sec
+------------- Standard Output ---------------
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+------------- ---------------- ---------------
+
+Testcase: testDecreaseViePositif took 1,146 sec
+Testcase: testStepPositif2 took 0,919 sec
+Testcase: testStepPositif3 took 0,891 sec
+Testcase: testStepPositif4 took 0,875 sec
+Testcase: testStepPositif5 took 0,85 sec
+Testcase: testInitPositif took 0,843 sec
+Testcase: testStepPositif1 took 1,75 sec
+Testcase: testStepPositif6 took 0,851 sec
+Testcase: testStepPositif7 took 0,848 sec
+Testcase: testStepPositif8 took 0,848 sec

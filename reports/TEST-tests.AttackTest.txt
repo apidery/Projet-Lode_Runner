@@ -1,0 +1,7 @@
+Testsuite: tests.AttackTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,045 sec
+
+Testcase: testStep2 took 0,019 sec
+Testcase: testInitPostif1 took 0 sec
+Testcase: testInitPostif2 took 0 sec
+Testcase: testStep1 took 0 sec

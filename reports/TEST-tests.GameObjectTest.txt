@@ -1,0 +1,7 @@
+Testsuite: tests.GameObjectTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,025 sec
+
+Testcase: testInitPostif2 took 0,006 sec
+Testcase: testInitNegatif1 took 0,001 sec
+Testcase: testInitNegatif2 took 0 sec
+Testcase: testInitPostif1 took 0,001 sec

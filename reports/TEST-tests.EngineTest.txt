@@ -1,0 +1,55 @@
+Testsuite: tests.EngineTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27,099 sec
+------------- Standard Output ---------------
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : You have won because there were not any playable map left[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+[33m[WARNING] : The map number 1 is not playable and has been skipped[0m
+------------- ---------------- ---------------
+
+Testcase: testAddHolePositif2 took 1,093 sec
+Testcase: testInitPositif took 1,726 sec
+Testcase: testAddHolePositif1 took 0,834 sec
+Testcase: testAddHolePositif3 took 0,794 sec
+Testcase: testAddHoleNegatif2 took 0,791 sec
+Testcase: testAddHoleNegatif1 took 0,798 sec
+Testcase: testInitNegatif1 took 0,824 sec
+Testcase: testCreateEnvironnementWithContractPositif took 1,603 sec
+Testcase: testInitNegatif2 took 0,808 sec
+Testcase: testInitNegatif3 took 0,935 sec
+Testcase: testInitNegatif4 took 0,955 sec
+Testcase: testAddAttackPositif2 took 0,813 sec
+Testcase: testAddAttackNegatif1 took 0,869 sec
+Testcase: testAddAttackNegatif2 took 0,812 sec
+Testcase: testAddAttackNegatif3 took 0,805 sec
+Testcase: testSetNextCommandPositif took 0,828 sec
+Testcase: testCreateEnvironnementPositif took 0,895 sec
+Testcase: testNextLevelPositif took 0,832 sec
+Testcase: testStepPositif1 took 0,794 sec
+Testcase: testStepPositif2 took 1,042 sec
+Testcase: testStepPositif3 took 1,242 sec
+Testcase: testStepPositif4 took 5,121 sec
+Testcase: testAddHoleNegatif3 took 0,987 sec
+Testcase: testAddAttackPositif1 took 0,863 sec

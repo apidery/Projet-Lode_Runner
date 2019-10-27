@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="Lode_Runner">
+	<property environment="env" />
+	<property name="debuglevel" value="source,lines,vars" />
+
+	<property name="target" value="8" />
+	<property name="source" value="8" />
+
+	<!-- Les membres du binome -->
+	<property name="nom1" value="PIDERY" />
+	<property name="nom2" value="GHALLAB" />
+
+	<!-- Les repertoires du projet -->
+	<property name="src" value="src" />
+	<property name="bin" value="bin" />
+	<property name="jars" value="jars" />
+	<property name="reports" value="reports" />
+
+	<!-- Les chemins -->
+	<path id="Lode_Runner.classpath">
+		<pathelement location="${bin}" />
+		<pathelement location="${jars}/junit.jar" />
+	</path>
+	
+	<path id="run.classpath">
+		<path refid="Lode_Runner.classpath" />
+	</path>
+
+	<!-- JUnit classpath -->
+	<path id="junit.classpath">
+		<fileset dir="${jars}" includes="*.jar" />
+		<pathelement location="${bin}" />
+	</path>
+
+	<!-- Met en place l'environnement pour la compilation du projet -->
+	<target name="init">
+		<mkdir dir="${bin}" />
+		<copy includeemptydirs="false" todir="${bin}">
+			<fileset dir="${src}">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- Supprime les binaires -->
+	<target name="clean">
+		<delete dir="${bin}" />
+	</target>
+	<!-- Supprime les binaires et les rapports JUnit -->
+	<target name="cleanall" depends="clean">
+		<delete dir="${reports}"/>
+	</target>
+	
+	<target depends="init" name="build">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true" debuglevel="${debuglevel}" destdir="${bin}" includeantruntime="false" source="${source}" target="${target}">
+			<compilerarg value="-Xlint:-options" />
+			<src path="${src}" />
+			<classpath refid="Lode_Runner.classpath" />
+		</javac>
+	</target>
+
+	<!-- Lance le main sans les contrats-->
+	<target name="run" depends="build">
+		<echo>========== Run Lode Runner without contracts ==========</echo>
+		<java classname="main.Main" failonerror="true" fork="yes">
+			<classpath refid="run.classpath" />
+		</java>
+	</target>
+
+	<!-- Lance le main avec les contrats-->
+	<target name="run-contracts" depends="build">
+		<echo>========== Run Lode Runner with contracts ==========</echo>
+		<java classname="main.MainContracts" failonerror="true" fork="yes">
+			<classpath refid="run.classpath" />
+		</java>
+	</target>
+	
+	<!-- Lance le main avec les contrats et les implantations buggées -->
+		<target name="run-contracts-bugs" depends="build">
+			<echo>========== Run Lode Runner with contracts errors ==========</echo>
+			<java classname="main.MainContractsBug" failonerror="true" fork="yes">
+				<classpath refid="run.classpath" />
+			</java>
+		</target>
+
+	<!-- Lance les tests -->
+	<target name="junit-tests" depends="build">
+		<echo>================ Run tests ================</echo>
+		<mkdir dir="${reports}" />
+		<junit fork="yes" printsummary="yes" showoutput="yes">
+			<classpath refid="junit.classpath" />
+			<formatter type="plain" usefile="true" />
+
+			<batchtest todir="${reports}">
+				<fileset dir="${bin}" includes="**/*Test.class" />
+			</batchtest>
+		</junit>
+	</target>
+
+	<!-- Génère la distribution -->
+	<target name="dist" depends="init,clean" description="Generer la distribution">
+		<echo>========== Generate distribution ==========</echo>
+		<!-- tout mettre dans l'archive -->
+		<jar basedir=".." jarfile="../Lode_Runner-${nom1}-${nom2}.jar" includes="Lode_Runner/**/*" excludes="**/CVS" />
+	</target>
+</project>

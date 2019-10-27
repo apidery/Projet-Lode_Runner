@@ -1,0 +1,41 @@
+Testsuite: tests.PathResolverTest
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,371 sec
+
+Testcase: testShortestPathToPlayer2 took 0,048 sec
+Testcase: testRecomputeGraphPositif took 0,013 sec
+Testcase: testNextMoveToReachPlayer1 took 0,009 sec
+Testcase: testNextMoveToReachPlayer2 took 0,008 sec
+Testcase: testNextMoveToReachPlayer3 took 0,016 sec
+Testcase: testPlayerCanReachPosPositif1 took 0,007 sec
+Testcase: testPlayerCanReachPosPositif2 took 0,006 sec
+Testcase: testPlayerCanReachPosNegatif1 took 0,006 sec
+Testcase: testPlayerCanReachPosNegatif2 took 0,006 sec
+Testcase: testPlayerCanReachAllTreasuresAndPortalPositif1 took 0,007 sec
+Testcase: testPlayerCanReachAllTreasuresAndPortalPositif2 took 0,006 sec
+Testcase: testPlayerCanReachAllTreasuresAndPortalNegatif1 took 0,015 sec
+Testcase: testPlayerCanReachAllTreasuresAndPortalNegatif2 took 0,003 sec
+Testcase: testPlayerCanReachAllTreasuresAndPortalNegatif3 took 0,006 sec
+Testcase: testPlayerCanReachAllTreasuresAndPortalNegatif4 took 0,006 sec
+Testcase: testNodeIdOfPositionPositif1 took 0,005 sec
+Testcase: testNodeIdOfPositionPositif2 took 0,003 sec
+Testcase: testNodeIdOfPositionNegatif1 took 0,003 sec
+Testcase: testNodeIdOfPositionNegatif2 took 0,003 sec
+Testcase: testInitPositif took 0,012 sec
+Testcase: testConversionPlateauToGraphPLTMTL took 0,006 sec
+Testcase: testConversionPlateauToGraphLAD1 took 0,006 sec
+Testcase: testConversionPlateauToGraphLAD2 took 0,006 sec
+Testcase: testConversionPlateauToGraphLAD3 took 0,006 sec
+Testcase: testConversionPlateauToGraphLAD4 took 0,006 sec
+Testcase: testConversionPlateauToGraphLAD5 took 0,006 sec
+Testcase: testConversionPlateauToGraphHDR1 took 0,006 sec
+Testcase: testConversionPlateauToGraphHDR2 took 0,007 sec
+Testcase: testConversionPlateauToGraphHDR3 took 0,007 sec
+Testcase: testConversionPlateauToGraphHDR4 took 0,006 sec
+Testcase: testConversionPlateauToGraphHDR5 took 0,006 sec
+Testcase: testConversionPlateauToGraphHOL1 took 0,006 sec
+Testcase: testConversionPlateauToGraphHOL2 took 0,006 sec
+Testcase: testConversionPlateauToGraphHOL3 took 0,006 sec
+Testcase: testConversionPlateauToGraphBorder1 took 0,006 sec
+Testcase: testConversionPlateauToGraphBorder2 took 0,006 sec
+Testcase: testConversionPlateauToGraphBorder3 took 0,006 sec
+Testcase: testShortestPathToPlayer1 took 0,006 sec
