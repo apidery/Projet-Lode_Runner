@@ -4,7 +4,7 @@ Lode Runner – Specification and implementation project of the classic platform
 
 # Capture d'écran du jeu
 
-[Screenshot](https://github.com/apidery/Lode_Runner/blob/master/src/resources/img/fenetre-jeu.png](https://github.com/apidery/Projet-Lode_Runner/blob/master/src/resources/img/fenetre-jeu.png)
+![Screenshot](https://github.com/apidery/Lode_Runner/blob/master/src/resources/img/fenetre-jeu.png](https://github.com/apidery/Projet-Lode_Runner/blob/master/src/resources/img/fenetre-jeu.png)
 
 ## Authors
 
