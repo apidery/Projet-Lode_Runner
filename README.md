@@ -1,12 +1,12 @@
 # Lode Runner
 
-Projet de spécification & implementation d'un jeu : Lode Runner, pour l'UE Composant (CPS) de la première année de Master STL - Sorbonne Université
+Lode Runner – Specification and implementation project of the classic platformer game, developed as part of the “Software Components” (CPS) course during the first year of the Master’s program in Software and Systems Engineering (STL) at Sorbonne University.
 
 # Capture d'écran du jeu
 
-![alt text](https://github.com/apidery/Lode_Runner/blob/master/src/resources/img/fenetre-jeu.png)
+[Screenshot](https://github.com/apidery/Lode_Runner/blob/master/src/resources/img/fenetre-jeu.png](https://github.com/apidery/Projet-Lode_Runner/blob/master/src/resources/img/fenetre-jeu.png)
 
-## Auteurs
+## Authors
 
 * **Ale Pidery** (https://github.com/apidery)
 * **Karim Ghallab** (https://github.com/KarimGhallab)
